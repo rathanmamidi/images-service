@@ -3,6 +3,11 @@ This is SpringBoot Application
 Just run the application as run with spring boot application using com.synch.image.ImagesServiceApplication
 configured port number as :9000
 
+
+
+
+
+
 For User Registration: all positive and negative scnarios covered 
 
 POST
@@ -19,6 +24,14 @@ Sample JSON:
 }
 
 it will return primary key as response
+
+
+
+
+
+
+
+
 
 
 For Image upload: it will authenticate the username and password before upload
@@ -42,6 +55,18 @@ password: test@password
 it will return invalid username and password
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 For Image View:
 http://localhost:9000/image/view
 
@@ -63,6 +88,17 @@ Sample JSON:
 }
 
 it will return invalid username and password
+
+
+
+
+
+
+
+
+
+
+
 
 
 
